@@ -1,6 +1,13 @@
 /* #235789 bleu
 #F2A602 jaune */
-
+body{
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #45B69C;
+}
 li{
     list-style: none;
     
@@ -10,8 +17,7 @@ ul{
 }
 .contenu{
     margin: auto;
-    width:70%;
-    height: 100%;
+    width:60%;
     background-color: #EDE100;
 }
  img{
@@ -38,7 +44,7 @@ ul{
     margin: auto;
     padding:1PX 25px;
 }
-.izy{
+.form-1{
     width: 65%;
     margin: auto;
     justify-content: center;
@@ -50,7 +56,6 @@ form{
     text-align: center;
 }
 .entrer{
-    margin-bottom: 10px;
-    background-color:#235789 ;
+    background-color:#2274A5 ;
     width: 50%; 
 }
