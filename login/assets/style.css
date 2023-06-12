@@ -1,0 +1,56 @@
+/* #235789 bleu
+#F2A602 jaune */
+
+li{
+    list-style: none;
+    
+}
+ul{
+    padding-left: 0px;
+}
+.contenu{
+    margin: auto;
+    width:70%;
+    height: 100%;
+    background-color: #EDE100;
+}
+ img{
+    width: 100px;
+    height: 100px;
+}
+.img-1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.img-2{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.contenu .entrer-1{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.form{
+    width: 45%;
+    margin: auto;
+    padding:1PX 25px;
+}
+.izy{
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+}
+form{
+    width: 100%;
+}
+.contenu h2{
+    text-align: center;
+}
+.entrer{
+    margin-bottom: 10px;
+    background-color:#235789 ;
+    width: 50%; 
+}
