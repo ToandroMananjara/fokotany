@@ -1,34 +1,35 @@
 
 body{
+    margin: 0;
+    height: 100vh;
     font-size: 20px;
     font-family: verdana(sans serif);
-    margin: 0;
+    background-color:#45B69C;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color:#45B69C;
+    
 }
 .contenu{
     width: 80%;
     height: auto;
-    background-color:aqua;
     margin: auto;
+    background-color:aqua;
     display: flex;
     
 }
 .contenu .gauche{
     width: 30%;
     height: auto;
-    background-color:#2274A5;
-    padding-top: 20px;
     color: white;
+    background-color:#2274A5;
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 .gauche .img{
-    margin: auto;
     width: 100px;
+    margin: auto;
     justify-content: center;
 }
 .gauche img{
@@ -45,11 +46,11 @@ body{
     width: 100%;
 }
 .contenu .form{
-    display: flex;
-    margin-top: 50px;
     width: 100%;
-    padding-right: 50px;
+    display: flex;
     justify-content: center;
+    margin-top: 50px;
+    padding-right: 50px;
 }
 
 .contenu .droite{
@@ -61,19 +62,18 @@ body{
     width: 40%;
 }
 .droite h1{
-    text-align: center;
     color: #275e7e;
+    text-align: center;
 }
 .droite p{
     width: 80%;
     margin: auto;
 }
 .contenu .droite .form input{
-    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
     margin-top: 5px;
-    border: solid 2px black;
-    border-radius: 2px;
-    
 }
 label{
     color: #275e7e;
@@ -84,18 +84,12 @@ label{
     font-weight: normal;
 }
 .input{
-    width: 60%;
-    height: 25px;
-}
-.lahy{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 80%;
+    height: 30px;
+    
 }
 select{
-    height: 30px;
+    border: none;
+    border-radius: 10bx;
+    margin-bottom: 5px;
 }
-.entrer{
-    margin-left: 70px;
-    height:30px ;
-}
- 
