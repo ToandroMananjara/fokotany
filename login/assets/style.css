@@ -50,11 +50,12 @@ input{
     width: 55%;
     margin: auto;
     padding:1px 25px;
+    justify-content: center;
 }
 .form-1{
     width: 65%;
     margin: auto;
-    justify-content: center;
+
 }
 form{
     width: 100%;
